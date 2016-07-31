@@ -1,11 +1,16 @@
-ip = input("Enter a string: ")
+ip = raw_input("Enter a string: ")
 
-def len_str(a):
-	a=0
+def string_length(s):    
+    if s == '': return 0
+    return 1 + string_length(s[1:])
 	
-	for letter in ip:
-		a=a+1
-		
-	print(a)
+print'The lenth of the string is: ',string_length(ip)
 
-len_str(ip)
+'''def len_str(a):
+	i=0
+	
+	for letter in a:
+		i+=1
+		return i
+
+print'The lenth of the string is: ',len_str(ip)'''
