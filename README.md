@@ -11,3 +11,4 @@ list of programs:
 
 3.Define a function that computes the length of a given list or string. (It is true that Python has the len() function built in, but writing it yourself is nevertheless a good exercise.)
 
+4.Write a function that takes a character (i.e. a string of length 1) and returns True if it is a vowel, False otherwise.
