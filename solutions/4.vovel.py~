@@ -10,7 +10,7 @@ elif len(input_str) > 1:												#limiting input to single alphabet
     print "Error! Only 1 character allowed!"
     sys.exit()
 
-if input_str in ('a', 'e', 'i', 'o', 'u'):								#Checking if input is vowel or consonant
+if input_str in ('a', 'e', 'i', 'o', 'u'):								#Checking if input is vowel or constant
         print "The given alphabet is vowel"
 		
 else:
