@@ -10,8 +10,10 @@ def translate(input_str):
 '''
 
 def translate(s):
-  consonants = 'bcdfghjklmnpqrstvwxz'
-  return ''.join(l + 'o' + l if l in consonants else l for l in s)
+	vowels = 'aeiou'
+	return ''.join(l + 'o' + l if l not in vowels else l for l in s)
+  #consonants = 'bcdfghjklmnpqrstvwxz'
+  #return ''.join(l + 'o' + l if l in consonants else l for l in s)
 
 input_str = raw_input("Please enter a word to be translated: ")
 print(translate(input_str))
