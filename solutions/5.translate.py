@@ -13,4 +13,5 @@ def translate(s):
   consonants = 'bcdfghjklmnpqrstvwxz'
   return ''.join(l + 'o' + l if l in consonants else l for l in s)
 
-print(translate("this is fun"))
+input_str = raw_input("Please enter a word to be translated: ")
+print(translate(input_str))
