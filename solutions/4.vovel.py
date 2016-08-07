@@ -1,8 +1,8 @@
 import re
 import sys																#regular expressions operations
 
-input_str = raw_input("Please enter a single alphabet only: ")			#taking input from user
-if not re.match("^[a-z]*$", input_str):									#checking input for only alphabet
+input_str = raw_input("Please enter a single alphabet only: ")			#taking alphabet input from user 
+if not re.match("^[a-z]*$", input_str):									#checking input for only alphabets 
     print "Error! Only letters a-z allowed!, no numbers and special characters"
     sys.exit()
 	
