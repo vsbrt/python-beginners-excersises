@@ -1,13 +1,10 @@
 
 def double_mult(s):
-    return ''.join([x*2 for x in s])
+	vowels = 'aeiou'
+    return ''.join(l for l if l in vowels else l + 'o' + lin s)        
 
-def consonant(c):
-    if input_str in ('a', 'e', 'i', 'o', 'u'):								
-        
-		
-else:
-        
-
-def translate()
+def translate(input_str):
+	input_str = raw_input("Please enter word to be Translated: ")
+	double_mult(input_str)
+	
 
