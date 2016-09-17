@@ -5,11 +5,14 @@ def sum(numbers):
     for number in numbers:
         total += number
     return total
-print(numbers)
+
 
 def multiply(numbers):
     total = 1
     for number in numbers:
         total = total * number
     return total
-print(numbers)
+
+if _name_ == "main":	
+print sum(numbers)	
+print multiply(numbers)
