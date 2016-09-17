@@ -1,4 +1,4 @@
-'''numbers = input("Please enter a number: ")'''
+'''numbers = input("Please enter a number: ")
 
 def sum(numbers):
     total = 0
@@ -17,5 +17,5 @@ if _name_ == "_main_":
 	print sum([1, 2, 3, 4])
 	print multiply([1, 2, 3, 4])
 
-'''print sum(numbers)	
+print sum(numbers)	
 print multiply(numbers)'''
