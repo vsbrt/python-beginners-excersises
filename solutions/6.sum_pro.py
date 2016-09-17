@@ -5,11 +5,11 @@ def sum(numbers):
     for number in numbers:
         total += number
     return total
-	print(numbers)
+print(numbers)
 
 def multiply(numbers):
     total = 1
     for number in numbers:
         total = total * number
     return total
-	print(numbers)
+print(numbers)
