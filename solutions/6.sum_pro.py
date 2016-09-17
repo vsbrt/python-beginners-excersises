@@ -1,4 +1,4 @@
-numbers = input("Please enter a number: ")
+'''numbers = input("Please enter a number: ")'''
 
 def sum(numbers):
     total = 0
