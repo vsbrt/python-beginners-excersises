@@ -13,7 +13,7 @@ def multiply(numbers):
         total = total * number
     return total
 
-if _name_ == "main":	
+if _name_ == "_main_":	
 	print sum([1, 2, 3, 4])
 	print multiply([1, 2, 3, 4])
 
