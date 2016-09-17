@@ -14,8 +14,8 @@ def multiply(numbers):
     return total
 
 if _name_ == "main":	
-print sum(numbers)	
-print multiply(numbers)
+	print sum([1, 2, 3, 4])
+	print multiply([1, 2, 3, 4])
 
-print sum(numbers)	
-print multiply(numbers)
+'''print sum(numbers)	
+print multiply(numbers)'''
