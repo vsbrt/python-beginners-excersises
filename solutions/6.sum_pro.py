@@ -16,3 +16,6 @@ def multiply(numbers):
 if _name_ == "main":	
 print sum(numbers)	
 print multiply(numbers)
+
+print sum(numbers)	
+print multiply(numbers)
