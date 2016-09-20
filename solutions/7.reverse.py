@@ -1,14 +1,12 @@
-def reverse(input_String):
+def reverse(string):
+    result = []
+    for word in string.split()[::-1]:
+        result.append(word[::-1])
+    return " ".join(result)
  
-	stringLength = int(len(input_String))
- 
-	reverse_strin = ""
- 
-	for i in range(0,stringLength):
-		reverse_strin = reverse_strin+input_String[-i-1]
-	
-	print (str(reverse_strin))
- 
-reverse_strin = input("Enter the string to reverse")
+reverse_strin = input("Enter the string to reverse ")
 
 reverse(reverse_strin)
+
+
+print reverse("I am testing")
