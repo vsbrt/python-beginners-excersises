@@ -7,10 +7,8 @@ def reverse(input_String):
 	for i in range(0,stringLength):
 		reverse_strin = reverse_strin+input_String[-i-1]
 	
-print (str(reverse_strin))
+	print (str(reverse_strin))
  
-print ("Enter the string to reverse")
- 
-reverse_strin = input()
+reverse_strin = input("Enter the string to reverse")
 
 reverse(reverse_strin)
