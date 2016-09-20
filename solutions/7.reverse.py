@@ -21,7 +21,6 @@ def reverse(string):
     return " ".join(result)
  
 string = raw_input("Enter the string to reverse ")
-
-reverse(string)
+print(reverse(string))
 
 
