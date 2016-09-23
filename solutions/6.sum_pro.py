@@ -36,5 +36,5 @@ def multiply(numbers):
 
 if __name__ == "__main__":
 	input_string = raw_input("enter numbers separated by comas:")
-    print(sum(input_string))
-    print(multiply(input_string))
+	print(sum(input_string))
+	print(multiply(input_string))
