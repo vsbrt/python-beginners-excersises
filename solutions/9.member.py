@@ -22,6 +22,10 @@ else:
 
 
 def is_member(x, a):
+
+	a = ['aa','bb','cc','dd','ee','ffgg','hhii','jjkkll']
+	print("Predefined list: " +str(list))
+	
     if len(a) == 0:
         return False
     return x == a[0] or is_member(x, a[1:])
